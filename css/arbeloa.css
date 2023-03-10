@@ -1,0 +1,282 @@
+@charset "UTF-8";
+
+body {
+	background-color: #E6E6E6;
+	width: 850px;
+	width: 856px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #FFF;
+	background-image: url(../images/kopidesing/cabecerofondodegradadotxiki.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+
+a:link {
+	text-decoration: none;
+	color: #FFF;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+a:active {
+	text-decoration:none;
+	color:red;
+}
+a:hover {
+	text-decoration: none;
+	background-color: #333;
+	color: #FFF;
+}
+.idioma {
+	width: 170px;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+}
+.idioma a:link {
+	color:#000
+}
+.idioma a:visited {color:#000}
+.idioma a:hover {
+	text-decoration:none;
+	color: #FFF;
+	background-color: #666;
+}
+.idioma a:active {background-color:#f4d081;color:navy} 
+div.menus {
+	background-color: #999999;
+	padding-top: 2px;
+	padding-right: 15px;
+	padding-bottom: 2px;
+	height: 50px;
+}
+
+
+.cajaindex {
+	color: #000;
+	padding-top: 5px;
+	text-align: justify;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	background-color: #E6E6E6;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	font-size: 16px;
+	border: 3px solid #666;
+}
+.cajacontenidos{
+	color: #000;
+	padding-top: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: normal;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	font-size: 14px;
+	border: 3px solid #939393;
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	background-color: #FFF;
+}
+
+.ulpisos {
+	font-family: Arial, Helvetica, sans-serif;
+	list-style-type: disc;
+	font-size: 14px;
+}
+.ulfotos {
+	display: inline;
+	list-style-type: none;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+.floatderecha {
+	float: right;
+	list-style-type: none;
+	padding-right: 5px;
+	padding-top: 0px;
+	padding-left: 15px;
+	margin-left: 15px;
+}
+.floatderecha3 {
+	float: right;
+	list-style-type: none;
+	padding-right: 5px;	
+}
+.floatizquierda {
+	float: left;
+	padding-right: 15px;
+	padding-bottom: 5px;
+}
+.titulos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #000;
+	font-style: italic;
+	text-decoration: underline;
+}
+.titulocap {
+	font-size: 60px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #E0230A;
+	margin: 0px;
+	padding: 0px;
+}
+.subtitulo {
+	font-size: 25px;
+	color: #000;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: normal;
+	float: left;
+}
+hr {
+	margin-top: 40px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	color: #CC0000;
+}
+.fondobumer {
+	background-attachment: scroll;
+	background-image: url(../imagenes/sine.png);
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 2px;
+	padding-bottom: 0px;
+	font-size: 24px;
+	color: #6E1113;
+}
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 2px;
+	padding-bottom: 0px;
+	font-size: 30px;
+}
+h4 {
+	font-size: 20px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #6C1012;
+	font-style: italic;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 40px;
+	text-decoration: underline;
+}
+.index {
+	color: #000;
+	padding-top: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: normal;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	font-size: 14px;
+	width: 400px;
+	margin-top: 10px;
+	height: 330px;
+	margin-left: 60px;
+}
+
+.kopindex {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 4px;
+	text-align: center;
+	color: #FFF;
+	border-right-width: 3px;
+	border-left-width: 3px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #2D2D2D;
+	border-left-color: #2D2D2D;
+}
+.titulostexto{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 4px;
+	text-align: center;
+	color: #FFF;
+	background-color: #969696;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.textobajo {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: #000;
+	font-size: 14px;
+}
+.textobajo2 {
+	text-align: left;
+	padding-right: 5px;
+	background-color: #969696;
+}
+.validadores {
+	text-align: center;
+	margin-top: 30px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+.mapa {
+	margin-top: 3px;
+	margin-right: 3px;
+	margin-bottom: 0px;
+	height: 450px;
+	width: 700px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.mapacaja {
+	color: #000;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	border: 3px solid #939393;
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	background-color: #FFF;
+	height: 600px;
+	text-align: left;
+	padding: 5px;
+}
+
+.direccion {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	text-align: right;
+	padding-right: 20px;
+}
